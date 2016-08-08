@@ -6,7 +6,8 @@ ENV OPENCV_VERSION=2.4.12
 
 RUN apt-get update \
 	&& apt-get upgrade -y \
-	&& apt-get install -y unzip wget build-essential \
+	&& DEBIAN_FRONTEND=noninteractive apt-get install -y \
+		unzip wget build-essential \
 		cmake git pkg-config libswscale-dev \
 		python3-dev python3-numpy \
 		libtbb2 libtbb-dev libjpeg-dev \
