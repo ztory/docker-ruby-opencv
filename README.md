@@ -1,5 +1,10 @@
 # Ruby + OpenCV
-Based of https://github.com/kavolorn/Docker-OpenCV and https://hub.docker.com/_/ruby/
+
+  Builds a Ruby environment with the libraries necessary to work with OpenCV.
+
+  This container is based of a Debian distribution instead of a minimal Ruby
+  container. This gives us access to the debian repositories and it makes it
+  easy to install more packages. Less hassle.
 
 
 # Building
@@ -27,3 +32,9 @@ Based of https://github.com/kavolorn/Docker-OpenCV and https://hub.docker.com/_/
   5. Tag this version eg. `git tag -a 2.3.1_2.4.13 -m "Ruby 2.3.1-slim and OpenCV 2.4.13"`
 
   6. Push using `git push --follow-tags`
+
+
+# Thanks to
+
+  * https://github.com/kavolorn/Docker-OpenCV
+  * https://hub.docker.com/_/ruby/
