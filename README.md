@@ -15,7 +15,7 @@
 
   2. Set the desired version number for Ruby eg. `FROM ruby:2.3.1-slim`.
 
-  3. Set the desired version number for OpenCV eg. `ENV OPENCV_VERSION=2.4.13`
+  3. Set the desired version number for OpenCV eg. `ENV OPENCV_VERSION=2.4.13`.
 
 ## Build your container
 
@@ -27,11 +27,11 @@
 
 ## Push the newly built container
 
-  1. Commit your changes eg. `git add . && git commit -m "Ruby 2.3.1-slim and OpenCV 2.4.13"`
+  1. Commit your changes eg. `git add . && git commit -m "Ruby 2.3.1-slim and OpenCV 2.4.13"`.
 
-  5. Tag this version eg. `git tag -a 2.3.1_2.4.13 -m "Ruby 2.3.1-slim and OpenCV 2.4.13"`
+  5. Tag this version eg. `git tag -a 2.3.1_2.4.13 -m "Ruby 2.3.1-slim and OpenCV 2.4.13"`.
 
-  6. Push using `git push --follow-tags`
+  6. Push to master using `git push --follow-tags`.
 
 
 # Thanks to
