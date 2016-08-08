@@ -2,7 +2,7 @@ FROM ruby:2.3.1-slim
 
 MAINTAINER Martin Samami <martin@digitalkookie.io>
 
-ENV OPENCV_VERSION=2.4.12
+ENV OPENCV_VERSION=2.4.13
 
 RUN apt-get update \
 	&& apt-get upgrade -y \
