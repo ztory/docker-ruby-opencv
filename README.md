@@ -29,9 +29,9 @@
 
   1. Commit your changes eg. `git add . && git commit -m "Ruby 2.3.1-slim and OpenCV 2.4.13"`.
 
-  5. Tag this version eg. `git tag -a 2.3.1_2.4.13 -m "Ruby 2.3.1-slim and OpenCV 2.4.13"`.
+  2. Tag this version eg. `git tag -a 2.3.1_2.4.13 -m "Ruby 2.3.1-slim and OpenCV 2.4.13"`.
 
-  6. Push to master using `git push --follow-tags`.
+  3. Push to master using `git push --follow-tags`.
 
 
 # Thanks to
